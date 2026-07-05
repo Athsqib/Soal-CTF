@@ -80,7 +80,7 @@ Flag juga dapat ditemukan dengan menganalisis file `capture.pcap` menggunakan Wi
 2. Filter dengan `http` untuk melihat paket HTTP
 3. Temukan paket nomor 3 — HTTP GET request ke:
    ```
-   GET /login?token=aHR0cHM6Ly9maWxlLmtpd2kvMzVkNjNjMjMjRDBfQ1NncU5NQ0w1Z1VfdDJma1dqdw==
+   GET /login?token=Q1RGX0lURkFJUntjM2tfaDFzdDByMV9tdV90NGt1dF9rM3Q0dTRufQ==
    ```
 4. Ekstrak nilai token dan decode base64 untuk mendapatkan flag
 
@@ -93,5 +93,5 @@ tshark -r capture.pcap -Y "http.request" -T fields -e http.request.full_uri
 ## Flag
 
 ```
-https://file.kiwi/35d63c23#D0_CSgqNMCL5gU_t2fkWjw
+CTF_ITFAIR{c3k_h1st0r1_mu_t4kut_k3t4u4n}
 ```
