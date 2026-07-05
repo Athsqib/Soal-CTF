@@ -47,13 +47,13 @@ Entri nomor 8 menunjukkan tersangka mengakses server internal dengan token.
 Token pada URL entri ke-8:
 
 ```
-http://internal-admin-server.local/login?token=aHR0cHM6Ly9maWxlLmtpd2kvMzVkNjNjMjMjRDBfQ1NncU5NQ0w1Z1VfdDJma1dqdw==
+http://internal-admin-server.local/login?token=aHR0cHM6Ly93d3cudHJhbnNmZXJub3cubmV0L2RsLzIwMjYwNzA1VG1lWWhoZ2o=
 ```
 
 Ambil nilai parameter `token`:
 
 ```
-aHR0cHM6Ly9maWxlLmtpd2kvMzVkNjNjMjMjRDBfQ1NncU5NQ0w1Z1VfdDJma1dqdw==
+aHR0cHM6Ly93d3cudHJhbnNmZXJub3cubmV0L2RsLzIwMjYwNzA1VG1lWWhoZ2o=
 ```
 
 ### 5. Decode Base64
@@ -61,13 +61,13 @@ aHR0cHM6Ly9maWxlLmtpd2kvMzVkNjNjMjMjRDBfQ1NncU5NQ0w1Z1VfdDJma1dqdw==
 String tersebut adalah base64. Dekode menggunakan command line atau tool online:
 
 ```bash
-echo "aHR0cHM6Ly9maWxlLmtpd2kvMzVkNjNjMjMjRDBfQ1NncU5NQ0w1Z1VfdDJma1dqdw==" | base64 -d
+echo "aHR0cHM6Ly93d3cudHJhbnNmZXJub3cubmV0L2RsLzIwMjYwNzA1VG1lWWhoZ2o=" | base64 -d
 ```
 
 Hasil:
 
 ```
-https://file.kiwi/35d63c23#D0_CSgqNMCL5gU_t2fkWjw
+https://www.transfernow.net/dl/20260705TmeYhhgj
 ```
 
 ### 6. Download file dari link
