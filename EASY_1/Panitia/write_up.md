@@ -1,4 +1,4 @@
-Write-Up: Forensics PCAP - Special Agent User
+Write-Up: Forensics PCAP - Cookie Hunter
 
 Deskripsi Soal
 Diberikan file the_data_challenge.pcapng. Temukan flag yang tersembunyi di dalamnya.
