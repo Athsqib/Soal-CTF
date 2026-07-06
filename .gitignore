@@ -12,3 +12,7 @@ build/
 venv/
 env/
 *.so
+
+flag.png
+struktur.md
+*.ps1
